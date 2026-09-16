@@ -1,0 +1,43 @@
+body {
+    background-color:rgb(58, 5, 123);
+    background-image: linear-gradient(to top, blue, darkgreen);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+.page-header {
+    background-image:linear-gradient(to right,yellow,red);
+    border-radius:25px;
+    text-align:center;
+    color:black;
+}
+
+.fact-card {
+    background-color: rgb(ultramarine, 0, 0);
+    border-radius: 25px;
+    color:white;
+}
+
+.fact-card h2 {
+    color:rgb(rgb(210, 126, 62))
+}
+
+.star {
+    width: 60px;
+    height: 60px;
+    background-color:yellow;
+    border-radius: 60px;
+    animation: twinkle 2s infinite alternate;
+
+}
+
+@keyframes twinkle {
+    from {   background-color: yellow; }
+    to   { background-color: white; }
+
+}
+.footer_text {
+    text-align:center;
+    color:rgb(76, 191, 76);
+}
